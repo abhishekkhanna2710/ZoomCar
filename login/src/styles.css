@@ -1,0 +1,123 @@
+#containsAllDiv{
+    width: 100%;
+    max-width: 400px;
+    margin: auto;
+}
+
+#imageDiv{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    flex-direction: column-reverse;
+}
+
+#logInImage{
+    width:100%;
+
+}
+
+#divNextToImageDiv{
+    width:100%;
+    display: flex;
+    flex-direction: column;
+}
+
+#enterDetailsH3Tag{
+    text-align: left;
+}
+
+#menuDiv{
+    width:100%;
+}
+
+#countryCodeWithMobileNumberDiv{
+    display: flex;
+    padding-left: 40px;
+    align-items: center;
+}
+
+#countryCodeDiv{
+    padding:5px;
+    display: flex;
+    align-items: center;
+    border-right: 1px solid #e0e0e0;
+    padding-right: 20px;
+}
+
+#flagImage{
+    width:25px;
+    height:25px;
+}
+
+#enterMobileNumberSpan{
+    color:#666;
+    padding-left: 20px;
+}
+
+#divNextToCountryCodeAndMobileNumberDiv{
+    width: 100%;
+}
+
+#continueWithEmailPTag{
+    border-top: 1px solid #e0e0e0;
+    text-align: left;
+    color:#10a310;
+    margin-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuInputItems{
+    width:100%;
+    box-sizing: border-box;
+    font-size: 15px;
+    height: 50px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border:none;
+    border-bottom: 1px solid #e0e0e0;
+    background: transparent;
+}
+
+.menuInputItems:focus{
+    outline: none;
+}
+
+#logInButton{
+    width:100%;
+    box-sizing: border-box;
+    background-color: #10a310;
+    color:white;
+    border:none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+#createNewAccountPTag{
+    color:#10a310;
+    text-align:left;
+}
+
+#createNewAccountPTag:hover{
+    text-decoration: underline;
+}
+
+#backgroundImage{
+    position: fixed;
+    width:100%;
+    height:100vh;
+    top:0px;
+    right:-250px;
+    z-index: -1;
+}
+
+.warningPTag{
+    text-align: left;
+    font-size: 10px;
+    color:#10a310;
+    margin-bottom: 0px;
+    display: none;
+}

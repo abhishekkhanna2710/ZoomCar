@@ -9,21 +9,26 @@ function Checkout(){
     const navi = useNavigate();
 
     useEffect(()=>{
+        
+        var data = JSON.parse(localStorage.getItem("data")) || {"Mileage":"60", "fuel":"Petrol", "image_url":"dfd", "name":"Swift", "price":"2580", "rating":"4.34", "trans":"Manual"};
+        var startDate = localStorage.getItem("startDate") || "Jan 20";
+        var endDate = localStorage.getItem("endDate") || "Jan 23";
+        var myCity = localStorage.getItem("myCity") || "America";
         var bookingDetails = JSON.parse(localStorage.getItem("bookingDetails")) || {"carName":"Maruti Swift", "transmission":"Automatic", "fuelVariant":"Diesel", "imageUrl":"https://zoomcar-assets.zoomcar.com/photographs/original/08304423b968f88cf094fe53c17aa28100f4b38c.png?1663876373",
         "pickUpDate":"Jan 20", "pickUpTime":"08:30 AM", "pickUpPlace":"Terminal 3", "dropDate":"Jan 23", "dropTime":"09:30 AM", "dropPlace":"Terminal 3",
         "carRating":"4.3", "totalRatings":"341", "totalMileage":"10200", "totalPrice":"3230"};
-        console.log(bookingDetails.carName);
-        document.getElementById("carNameH5Tag").innerText = bookingDetails.carName + " " + bookingDetails.transmission;
-        document.getElementById("carTransmissionAndFuelVariantPTag").innerText = bookingDetails.transmission + " " + bookingDetails.fuelVariant;
-        document.getElementById("carImage").src = bookingDetails.imageUrl;
-        document.getElementById("pickUpDataAndTimeH4Tag").innerText = bookingDetails.pickUpDate + ", " + bookingDetails.pickUpTime;
-        document.getElementById("pickUpPlacePTag").innerText = bookingDetails.pickUpPlace;
-        document.getElementById("dropDataAndTimeH4Tag").innerText = bookingDetails.dropDate + ", " + bookingDetails.dropTime;
-        document.getElementById("dropPlacePTag").innerText = bookingDetails.dropPlace;
-        document.getElementById("ratingAndKMSDrivenPTag").innerText = bookingDetails.carRating + " (" + bookingDetails.totalRatings + ") . " + bookingDetails.totalMileage  + "Kms driven";
-        document.getElementById("freeCancellationPTag").innerText = "Free cancellation up to " + bookingDetails.pickUpDate + ".";
-        setTotalPrice(Number(bookingDetails.totalPrice) + 196);
-        localStorage.setItem("newTotalPriceAfterProtection", Number(localStorage.getItem("totalPrice") + 196));
+        console.log("");
+        document.getElementById("carNameH5Tag").innerText = data.name + " " + data.trans;
+        document.getElementById("carTransmissionAndFuelVariantPTag").innerText = data.trans + " " + data.fuel;
+        document.getElementById("carImage").src = data.image_url;
+        document.getElementById("pickUpDataAndTimeH4Tag").innerText = startDate;
+        document.getElementById("pickUpPlacePTag").innerText = myCity;
+        document.getElementById("dropDataAndTimeH4Tag").innerText = endDate;
+        document.getElementById("dropPlacePTag").innerText = myCity;
+        document.getElementById("ratingAndKMSDrivenPTag").innerText = data.rating + " " + data.Mileage  + "Kms driven";
+        document.getElementById("freeCancellationPTag").innerText = "Free cancellation up to " + startDate + ".";
+        setTotalPrice(Number(data.price) + 196);
+        localStorage.setItem("newTotalPriceAfterProtection", Number(data.price) + 196);
         document.getElementById("basicTypeProtectionRadioButton").checked = "checked";
     }, []);
 

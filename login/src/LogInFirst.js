@@ -24,6 +24,7 @@ function LogInFirst(){
             let element = usersData[ind];
             if(element.email === emailRef.current.value && element.password === passwordRef.current.value){
                 alert("Logged In Successfully !");
+                localStorage.setItem("loggedInUser", JSON.stringify(element));
                 navigate("/");
                 loggedInSuccessfully = true;
                 break;

@@ -516,9 +516,12 @@ hr{
   width: 92%;
   margin: auto;
   margin-top: 100px;
+ 
   /* text-align: center; */
 }
 .question>img{
+  width: 32px;
+  height: 33px;
   margin-right: 20px;
   margin-left: 10px;
 }
@@ -531,7 +534,7 @@ hr{
   border: 1px solid black;
   padding-left: 10px;
   padding-right: 10px;
-  padding-top: -15px;
+  padding-top: 5px;
   border-color: lightgrey;
   
 
@@ -552,6 +555,7 @@ hr{
   font-weight: 600;
   line-height: 1.43;
   letter-spacing: 1.2px;
+ 
   color: #666;
   opacity: .6;
   text-transform: uppercase;
@@ -561,6 +565,7 @@ hr{
   width: 80%;
     font-weight: 500;
     line-height: 1.14;
+    margin-top: 5px;
     cursor: pointer;
 }
 #questions>div{

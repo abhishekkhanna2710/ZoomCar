@@ -15,6 +15,17 @@ import earn from "../Media/earn.jpeg";
 import carcoverage from "../Media/carcoverage.jpeg";
 import pocket from "../Media/pocket.jpeg";
 import flexibility from "../Media/flexibility.jpeg";
+
+import taxi from "../Media/taxi.png";
+import coins from "../Media/coins.png";
+import guest from "../Media/guest.png";
+import cycle from "../Media/cycle.png";
+import commas from "../Media/commas.png";
+import money from "../Media/money.png";
+import identity from "../Media/identity.png";
+
+
+
 import ReactDOM from 'react-dom';
 
 
@@ -376,7 +387,7 @@ function Host(){
         <div>
           <div>
             <div class="question">
-               <img src="https://doav52ie4cv60.cloudfront.net/images/renters-ico.svg" />
+               <img src={guest} />
                <p >Do I need to meet the guests of my car?</p>
                <div class="host-questions-accordion-block-header-arrow-container"><img src="https://www.zoomcar.com/zap/subscribe/build/145dbdacf67ffb58dcc19159ad49e336.png" class="host-questions-accordion-block-header-arrow-container-image"/></div>
             </div>
@@ -384,7 +395,7 @@ function Host(){
         </div>
         <div>
         <div class="question">
-        <img src="https://doav52ie4cv60.cloudfront.net/images/earn-ico.svg" />
+        <img src={money} />
                <p >How much will I earn?</p>
                <div class="host-questions-accordion-block-header-arrow-container"><img src="https://www.zoomcar.com/zap/subscribe/build/145dbdacf67ffb58dcc19159ad49e336.png" class="host-questions-accordion-block-header-arrow-container-image"/></div>
             </div>
@@ -392,7 +403,7 @@ function Host(){
         </div>
         <div>
         <div class="question">
-        <img src="https://doav52ie4cv60.cloudfront.net/images/get-paid-ico.svg" />
+        <img src={coins} />
                <p >How will I get Paid?</p>
                <div class="host-questions-accordion-block-header-arrow-container"><img src="https://www.zoomcar.com/zap/subscribe/build/145dbdacf67ffb58dcc19159ad49e336.png" class="host-questions-accordion-block-header-arrow-container-image"/></div>
             </div>
@@ -400,7 +411,7 @@ function Host(){
         </div>
         <div>
         <div class="question">
-        <img src="https://doav52ie4cv60.cloudfront.net/images/car-price-ico.svg"/>
+        <img src={taxi}/>
                <p >How is the price of my car decided</p>
                <div class="host-questions-accordion-block-header-arrow-container"><img src="https://www.zoomcar.com/zap/subscribe/build/145dbdacf67ffb58dcc19159ad49e336.png" class="host-questions-accordion-block-header-arrow-container-image"/></div>
             </div>
@@ -408,7 +419,7 @@ function Host(){
         </div>
         <div>
         <div class="question">
-        <img src="https://doav52ie4cv60.cloudfront.net/images/challans-ico.svg" />
+        <img src={identity}/>
                <p >What happens if my car gets challans or traffic fines while my car is being shared?</p>
                <div class="host-questions-accordion-block-header-arrow-container"><img src="https://www.zoomcar.com/zap/subscribe/build/145dbdacf67ffb58dcc19159ad49e336.png" class="host-questions-accordion-block-header-arrow-container-image"/></div>
             </div>
@@ -416,7 +427,7 @@ function Host(){
         </div>
         <div>
         <div class="question">
-        <img src="https://doav52ie4cv60.cloudfront.net/images/setting-ico.svg" />
+        <img src={cycle} />
                <p >Why are safety devices installed?</p>
                <div class="host-questions-accordion-block-header-arrow-container"><img src="https://www.zoomcar.com/zap/subscribe/build/145dbdacf67ffb58dcc19159ad49e336.png" class="host-questions-accordion-block-header-arrow-container-image"/></div>
             </div>

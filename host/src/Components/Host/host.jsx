@@ -1,5 +1,6 @@
 import logo from "../Media/logo.png";
 import earnlogo from "../Media/earnlogo.png";
+import Link from "react";
 
 import { useState } from "react";
 
@@ -161,7 +162,7 @@ function Host(){
                 <p><a href="">Sign Up/Login</a></p>
             </div>
             <div>
-                <button>START EARNING</button>
+                <button >START EARNING</button>
             </div>
 
  
@@ -336,7 +337,7 @@ function Host(){
                
                 <div class="subBox">
                     <p>Sai Krishna, Loan Officer, Hyderabad </p>
-                    <img src="https://doav52ie4cv60.cloudfront.net/images/quotes.svg" class="host-testimonials-container-blocks-block-description-image" />
+                    <img  src={commas} />
                     <p class="font">Passive income for me</p>
                     <p>Around 10-15 % of the amount I receive goes to EMI, rest of the amount is a passive income for me</p>
                    
@@ -353,7 +354,7 @@ function Host(){
                
                 <div class="subBox">
                    <p>Vanshika, HR, Mumbai</p>
-                   <img src="https://doav52ie4cv60.cloudfront.net/images/quotes.svg" class="host-testimonials-container-blocks-block-description-image" />
+                   <img  src={commas} />
                     <p class="font">Car is paying for itself</p>
                     <p>I am in love with this idea and enjoying my time with Zoomcar host. My car is paying for itself and that's great benefit</p>
 
@@ -369,7 +370,7 @@ function Host(){
                
                 <div class="subBox">
                     <p>Rahul, Banglore</p>
-                    <img src="https://doav52ie4cv60.cloudfront.net/images/quotes.svg" class="host-testimonials-container-blocks-block-description-image" />
+                    <img src={commas}/>
                     <p class="font">Great Return n investment</p>
                     <p>Average I earn ₹20-26k per month, that's a great return on investment on my car </p>
 

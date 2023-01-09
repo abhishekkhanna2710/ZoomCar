@@ -1,0 +1,104 @@
+.newsletter {
+    background-color: #D43030;
+    width: 40%;
+    margin: 0 auto;
+    margin-bottom: -30px;
+    z-index: 333;
+    position: relative;
+
+
+}
+
+.newsletter p {
+    text-align: center;
+    color: white;
+    font-size: 17px;
+    padding-top: 30px;
+}
+
+.newsletter h2 {
+    text-align: center;
+    color: white;
+}
+
+.textInput {
+    padding: 10px 20px;
+    border: none;
+    width: 100%;
+}
+
+.textInputWrapper {
+    margin: auto;
+    width: 35%;
+    padding-bottom: 30px;
+}
+
+.parallax {
+    background-image: url("https://images.unsplash.com/photo-1571607388263-1044f9ea01dd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8OTB8fGNhcnN8ZW58MHx8MHx8&auto=format&fit=crop&w=1000&q=60");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+    background-color: Black;
+}
+
+.parallax h5 {
+    padding-top: 50px;
+}
+
+#mainChat .parallax h5 {
+    text-align: center;
+    color: rgb(249, 244, 244);
+    text-shadow: 2px 2px 2px #171616;
+}
+
+#mainChat .parallax h1 {
+    text-align: center;
+    color: rgb(249, 244, 244);
+    text-shadow: 2px 2px 2px #171616;
+}
+
+.chats form div {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: auto;
+    background-color: black;
+    padding: 30px;
+
+}
+
+.chats form input {
+    /* margin: 10px 10px; */
+    padding: 8px 20px;
+    margin: 10px 0px;
+
+}
+
+.chats form input[type=submit] {
+    background-color: #f01d1d;
+    color: white;
+    font-size: 17px;
+
+}
+
+
+
+@media only screen and (max-width: 600px) {
+    .newsletter{
+        width: 80%;
+    }
+    .newsletter h2{
+        font-size: 16px;
+    }
+    .newsletter p{
+        font-size: 13px;
+    }
+
+    .parallax h1{
+        font-size: 25px;
+    }
+
+  }

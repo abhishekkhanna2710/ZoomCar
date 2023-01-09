@@ -1,0 +1,95 @@
+.mainCars {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    /* display: flex;
+    justify-content: center; */
+}
+
+.mainCars {
+    margin-bottom: 23px;
+}
+
+.carImage {
+    width: 220px;
+}
+
+.carImage img {
+    width: 100%;
+    transform: scaleX(-1);
+}
+
+.carContent h1 {
+    font-size: 20px;
+}
+
+.flex {
+    display: flex;
+    margin: 5px 0px;
+}
+
+.flex p {
+    margin: 0px 4px;
+    color: rgb(126, 124, 124);
+    font-weight: 500;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.rating p,
+i {
+    margin: 0px 4px;
+}
+
+.pricetag h2 {
+    font-size: 20px;
+}
+
+.pricetag p {
+    text-decoration: line-through;
+}
+
+.rating i {
+    color: #F93852;
+}
+
+/* button */
+.buttonstyle button {
+    padding: 0.5em 0.9em;
+    border: 2px solid #eb324b;
+    position: relative;
+    overflow: hidden;
+    background-color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 14px;
+    transition: .3s;
+    z-index: 1;
+    font-family: inherit;
+    color: #F93852;
+    font-weight: 600;
+}
+
+.buttonstyle button::before {
+    content: '';
+    width: 0;
+    height: 300%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(45deg);
+    background: #F93852;
+    transition: .5s ease;
+    display: block;
+    z-index: -1;
+}
+
+.buttonstyle button:hover::before {
+    width: 105%;
+}
+
+.buttonstyle button:hover {
+    color: white;
+}

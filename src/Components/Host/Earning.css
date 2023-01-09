@@ -1,0 +1,43 @@
+#top{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    background-color: whitesmoke;
+    padding-top: 80px;
+}
+#form{
+width: 30%;
+margin: auto;
+}
+
+#form input{
+    box-sizing: border-box;
+    border:2px solid grey;
+    width: 80%;
+    height:30px;
+    margin: auto;
+    margin-left: 40px;
+}
+
+.fix-box>div{
+    width: 80%;
+    margin: auto;
+    height: 30px;
+    color: grey;
+    border: 2px solid grey;
+}
+#form >div>p:nth-child(1){
+    font-weight: 500px;
+}
+#submit>button{
+    width: 90%;
+    height: 50px;
+    margin: auto;
+    font-size: 25px;
+    background-color: #eb324b;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-left: 20px;
+}

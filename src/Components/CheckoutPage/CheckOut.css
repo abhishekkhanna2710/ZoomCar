@@ -1,0 +1,308 @@
+#checkoutParentDiv {
+    width: 100%;
+}
+
+#upperGoBackIconParentDiv {
+    width: 100%;
+    background-color: #f5f5f5;
+    display: flex;
+    height: 0px;
+}
+
+#goBackIcon {
+    width: 45px;
+    height: 45px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#divNextToIconDiv {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+#carDetailsDiv {
+    background-color: #FFE4C4;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+
+#carNameH5Tag {
+    margin-bottom: 0px;
+}
+
+#carTransmissionAndFuelVariantPTag {
+    text-align: left;
+    margin-top: 0px;
+}
+
+#carImage {
+    width: 150px;
+    height: 100px;
+}
+
+#carDetailsImageDiv {
+    margin-bottom: 0px;
+}
+
+#bookingFeaturesDiv {
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+#pickUpCircleDotDiv {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+#pickUpDetailsDiv {
+    display: flex;
+    align-items: center;
+}
+
+#pickUpTimeAndPlaceDiv {
+    text-align: left;
+}
+
+#pickUpDataAndTimeH4Tag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#pickUpPlacePTag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#dropCircleDotDiv {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+#dropDetailsDiv {
+    display: flex;
+    align-items: center;
+}
+
+#dropTimeAndPlaceDiv {
+    text-align: left;
+}
+
+#dropDataAndTimeH4Tag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#dropPlacePTag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#unlimitedKMSWithoutFuelDiv {
+    display: flex;
+    align-items: center;
+}
+
+#unlimitedKMSWithoutFuelPTag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#fuelPumpImage {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+#ratingAndKMSDrivenPTag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#ratingAndKMSDrivenDiv {
+    display: flex;
+    align-items: center;
+}
+
+#starImage {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+#freeCancellationDiv {
+    padding: 10px;
+    background-color: #f0f4ff;
+}
+
+#freeCancellationPTag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 5px;
+    text-align: left;
+    color: #536085;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 0.4px;
+}
+
+
+#tripProtectionPackageOptionsDiv {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#tripProtectionPackageTextPTag {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+}
+
+.protectionOneTypeDiv {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.protectionOneTypeSubDivToKeepItOnLeft {
+    display: flex;
+    align-items: center;
+}
+
+.typeImageDiv {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.typeImage {
+    width: 100%;
+    height: 100%;
+}
+
+.typeNamePriceDiv {
+    text-align: left;
+}
+
+.typeNameH4Tag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.typeDescriptionPTag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.protectionRadioButton {
+    width: 20px;
+    height: 20px;
+}
+
+#howTripProtectionWorksDiv {
+    padding: 10px;
+    background-color: #f5f5f5;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#keepInMindTextPTag {
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+.keepInMindCardDiv {
+    display: flex;
+    align-items: center;
+}
+
+.keepInMindCardImage {
+    width: 20px;
+    height: 20px;
+    padding: 10px;
+}
+
+.keepInMindCardTextPTag {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+#subTotalDiv {
+    width: 100%;
+    position: fixed;
+    left: 0px;
+    bottom: 0px;
+    background-color: white;
+    height: 200px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.myButtonsss {
+    width: 16%;
+    margin: auto;
+    padding-top: 20px;
+
+}
+
+#carImageLoading {
+    position: fixed;
+    z-index: 100;
+    width: 150px;
+    height: 75px;
+    left: 0px;
+    bottom: -10px;
+    transition: 2s;
+}
+
+#emptyDiv {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#proceedToPayButton {
+    font-size: 19px;
+    padding: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    background-color: #EB324B;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+#proceedToPayButton:hover {
+    border: 2px solid black;
+}
+
+#totalAmountH2Tag {
+    margin: 0 auto;
+    width: 11%;
+    margin: auto;
+    padding-top: 20px;
+    font-size: 20px;
+}
+
+
+.myButtonsss button {
+    font-size: 15px !important;
+    background-color: aqua;
+}

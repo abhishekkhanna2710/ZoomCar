@@ -1,0 +1,342 @@
+.filtero {
+    box-shadow: rgba(0, 0, 0, 0.02) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    padding: 20px;
+}
+
+.filtero .heading {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.filtero .mybTn {
+    background-color: #eb324b;
+    border: 2px solid #eb324b;
+    color: white;
+    font-weight: 500;
+
+}
+
+.filtero .heading h2 {
+    font-size: 20px;
+}
+
+.filtero .reset {
+    border: none;
+    background-color: white;
+    font-size: 17px;
+    font-weight: 600;
+    color: #eb324b;
+}
+
+.filtero .heading p {
+    margin-top: 20px;
+}
+
+.filtero .heading a {
+    color: #F93852;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.car-type>div {
+    display: flex;
+    align-items: center;
+
+}
+
+.car-type>div i {
+    font-size: 17px;
+    margin-bottom: 7px;
+}
+
+.car-type>div+p {
+    font-size: 11px;
+    color: rgb(77, 73, 73);
+}
+
+.FilterBox {
+    display: flex;
+}
+
+.FilterBox>div {
+    margin: 4px 4px;
+}
+
+.FilterBox>div button {
+    padding: 4px 6px;
+}
+
+.FilterBox>div button p {
+    font-size: 12px;
+}
+
+.car_types {
+    display: flex;
+}
+
+.car_types>div {
+    margin: 4px 10px;
+}
+
+.car_types>div button {
+    padding: 5px 15px;
+}
+
+.Seats {
+    display: flex;
+}
+
+.Seats>div {
+    margin: 4px 10px;
+}
+
+.Seats>div button {
+    padding: 5px 15px;
+}
+
+.Fuels {
+    display: flex;
+}
+
+.Fuels>div {
+    margin: 4px 15px;
+}
+
+.Fuels>div button {
+    padding: 5px 25px;
+}
+
+.Fuels .btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(37, 35, 35);
+    border: 2px solid #eb324b;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+}
+
+.Fuels .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #eb324b;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.Fuels .btn:hover::before {
+    transform: translateX(0);
+
+}
+
+.Fuels .btn:hover p {
+    color: white;
+}
+
+.Fuels .btn:hover i {
+    color: white;
+}
+
+
+.Seats .btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(37, 35, 35);
+    border: 2px solid #eb324b;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+}
+
+.Seats .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #eb324b;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.Seats .btn:hover::before {
+    transform: translateX(0);
+
+}
+
+.Seats .btn:hover p {
+    color: white;
+}
+
+.Seats .btn:hover i {
+    color: white;
+}
+
+.Transmission .btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(37, 35, 35);
+    border: 2px solid #eb324b;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+}
+
+.Transmission .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #eb324b;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.Transmission .btn:hover::before {
+    transform: translateX(0);
+
+}
+
+.Transmission .btn:hover p {
+    color: white;
+}
+
+.Transmission .btn:hover i {
+    color: white;
+}
+
+
+.Transmission {
+    display: flex;
+}
+
+.Transmission>div {
+    margin: 4px 15px;
+}
+
+.Transmission>div button {
+    padding: 5px 25px;
+}
+
+
+
+.car_types .btn {
+    display: inline-block;
+    padding: 0.9rem 1.8rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(37, 35, 35);
+    border: 2px solid #eb324b;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+}
+
+.car_types .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #eb324b;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.car_types .btn:hover::before {
+    transform: translateX(0);
+
+}
+
+.car_types .btn:hover p {
+    color: white;
+}
+
+.car_types .btn:hover i {
+    color: white;
+}
+
+
+
+.FilterBox .btn {
+    display: inline-block;
+    padding: 0.9rem 1rem;
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(37, 35, 35);
+    border: 2px solid #eb324b;
+    cursor: pointer;
+    position: relative;
+    background-color: transparent;
+    text-decoration: none;
+    overflow: hidden;
+    z-index: 1;
+    font-family: inherit;
+}
+
+.FilterBox .btn::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+
+    background-color: #eb324b;
+    transform: translateX(-100%);
+    transition: all .3s;
+    z-index: -1;
+}
+
+.FilterBox .btn:hover::before {
+    transform: translateX(0);
+
+}
+
+.FilterBox .btn:hover p {
+    color: white;
+}
+
+.FilterBox .btn:hover i {
+    color: white;
+}
+

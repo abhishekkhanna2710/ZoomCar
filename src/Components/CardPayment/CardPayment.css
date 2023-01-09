@@ -1,0 +1,189 @@
+.CardPay {
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    width: 100%;
+
+}
+
+
+.CardPay h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.UpperBar {
+    display: flex;
+    background-color: bisque;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.UpperBar .ImagoCar {
+    width: 160px;
+}
+
+.UpperBar img {
+    width: 100%;
+}
+
+.carConto {
+    display: flex;
+}
+
+.carConto p {
+    margin: 2px 4px;
+}
+
+.middlebar {
+    margin: 14px 0px;
+    padding: 4px 20px;
+}
+
+.barBox {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.barBox p {
+    text-align: center;
+}
+
+.endBar {
+    display: flex;
+    justify-content: space-between;
+    padding: 3px 20px;
+}
+
+.endBar p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.brtun {
+    width: 20%;
+    margin: auto;
+    padding-top: 30px;
+}
+
+.brtun button {
+    background-color: #EB324B;
+    width: 100%;
+    color: white;
+    border: none;
+    padding: 7px;
+    border-radius: 4px;
+    font-weight: 600;
+    font-size: 16px;
+}
+
+
+/* dheusdgebudgeudguedfgeudgeuQUwgedihgyhuwqfeuiwkfbu3i2wsfuiqwhdoiehgduwqdsfyqsdiewfhoregreogjreojwisgq    ysfq    ysgeifherogfjerogjr34owaheuqwfsyuqwgfdirfhgtojgp */
+
+
+
+.box {
+    width: 40%;
+    margin: 0 auto;
+    background: rgba(255, 255, 255, 0.2);
+    padding: 35px;
+    border: 2px solid #fff;
+    border-radius: 20px/50px;
+    background-clip: padding-box;
+    text-align: center;
+}
+
+.button {
+    font-size: 1em;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #EB324B;
+
+    text-decoration: none;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+}
+
+.button button {
+    background: #EB324B;
+    border: none;
+    font-weight: 600;
+}
+
+.button:hover {
+    background: #121111;
+    color: white;
+    border: none;
+}
+
+
+
+.overlay {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.7);
+    transition: opacity 500ms;
+    visibility: hidden;
+    opacity: 0;
+}
+
+.overlay:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+.popup {
+    margin: 70px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 5px;
+    width: 30%;
+    position: relative;
+    transition: all 5s ease-in-out;
+}
+
+.popup h2 {
+    margin-top: 0;
+    color: #333;
+    font-family: Tahoma, Arial, sans-serif;
+}
+
+.popup .close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    transition: all 200ms;
+    font-size: 30px;
+    font-weight: bold;
+    text-decoration: none;
+    color: #333;
+}
+
+.popup .close:hover {
+    color: #EB324B;
+}
+
+.popup .content {
+    max-height: 30%;
+    overflow: auto;
+}
+
+@media screen and (max-width: 700px) {
+    .box {
+        width: 70%;
+    }
+
+    .popup {
+        width: 70%;
+    }
+}
+
+.Congrats {
+    display: flex;
+    align-items: center
+}
+
+.Congrats img{
+    margin-left: 30px;
+}

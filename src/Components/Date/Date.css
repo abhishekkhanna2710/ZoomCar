@@ -1,0 +1,53 @@
+.boxupper {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+
+
+}
+
+.twobox {
+    border: 1px solid rgb(65, 64, 64);
+    /* height: 70px; */
+    padding: 0px 10px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+
+}
+
+.twobox i {
+    margin: 30px;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+    .boxupper {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+/* @media only screen and (max-width: 600px) {
+    .boxupper {
+        display: none;
+    }
+} */
+
+.location {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.location h4 {
+    color: #EB324B;
+}
+
+.twobox h3 {
+    margin-top: 26px;
+}
+
+#city {
+    height: 24px;
+    width: 30%;
+    margin: auto 0px;
+}

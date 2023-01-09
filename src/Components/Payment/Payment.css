@@ -1,0 +1,39 @@
+#parent {
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 10px 10px;
+
+}
+
+#parentbox h1 {
+  padding: 30px;
+  text-align: left;
+  margin-left: 4%;
+}
+
+#parentbox img {
+  height: 30px;
+  width: 30px;
+  margin-right: 20px;
+}
+
+#parentbox {
+  display: flex;
+  /* border: 2px solid teal; */
+  width: 93%;
+  margin-left: 6%;
+  justify-content: center;
+  box-shadow: rgba(0, 0, 0, 0.4) 2px 3px 8px;
+}
+
+#parentbox h2 {
+  text-align: left;
+}
+
+#parentbox p {
+  color: #a8a8a8;
+}
+
+#parentbox h4 {
+  color: #1f1f1f;
+}

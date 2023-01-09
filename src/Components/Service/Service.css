@@ -1,0 +1,194 @@
+#parenttop {
+  display: flex;
+  justify-content: space-around;
+}
+
+#top1 {
+  color: #434343;
+  width: 50%;
+  text-align: center;
+}
+
+#top2 img {
+  height: 400px;
+  color: #434343;
+}
+
+.Service button {
+  padding: 8px 17px;
+  background-color: #eb324b;
+  color: white;
+  border: 0px;
+  border-radius: 4px;
+  margin-left: 277px;
+}
+
+#zms_productoffrings {
+  display: flex;
+  flex-direction: column;
+  padding: 0% 10%;
+  align-items: center;
+}
+
+#zms_click {
+  display: flex;
+}
+
+#cy_content {
+  font-weight: 500;
+  margin: 0% 15%;
+  padding: 15px;
+  font-size: 25px;
+  text-align: center;
+}
+
+#CVS {
+  padding: 10px 30px;
+  margin: 5px;
+  color: aliceblue;
+  background-color: #eb324b;
+  font-size: 28px;
+  justify-content: space-around;
+  border: 1px aliceblue;
+}
+
+#YMS {
+  padding: 10px 30px;
+  margin: 5px;
+
+  color: #434343;
+  background-color: aliceblue;
+  font-size: 28px;
+  justify-content: space-around;
+  border: 1px black;
+}
+
+.zms_feat {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0% 12%;
+  background-color: antiquewhite;
+  align-items: center;
+}
+
+.zms_features {
+  width: 330px;
+  justify-content: space-around;
+  padding: 20px 0px;
+  margin: 0px 10px 15px 15px;
+}
+
+.zms_fet_heading {
+  font-size: 20px;
+  font-weight: 800;
+  padding: 10px 10px 10px 0px;
+}
+
+.zms_fet_text {
+  font-size: 17px;
+  color: gray;
+}
+
+#zms_ptr {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0% 12% 10%;
+  justify-content: space-evenly;
+}
+
+#zms_ptr>div {
+  background-color: rgb(227, 51, 51);
+  max-width: 255px;
+  margin: 20px;
+  height: 290px;
+}
+
+.ptr_icon {
+  width: 60px;
+  padding: 30px;
+}
+
+#zms_ptr p {
+  padding: 40px 30px 0px 30px;
+  color: antiquewhite;
+  font-size: x-large;
+  font-weight: 800;
+}
+
+#zms_connect {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  border: 2px grey;
+  background-color: #eb324b;
+  padding-bottom: 40px;
+}
+
+#zms_connect>form>div {
+  display: flex;
+  padding-top: 10px;
+  margin-left: 40px;
+}
+
+#name,
+#country,
+#email,
+#requirments,
+#phoneno,
+#company {
+  flex-grow: 1;
+  padding: 30px 20px;
+  margin: 10px;
+  font-size: 20px;
+  font-weight: 400;
+  border-radius: 8px;
+  border: #eb324b;
+  text-align: left;
+}
+
+#requirments {
+  padding: 80px 20px;
+}
+
+#c_submit {
+  margin-left: 40%;
+  padding: 5px 50px;
+  font-size: 22px;
+  background-color: #eb324b;
+  color: aliceblue;
+  border: 0px;
+}
+
+form div>input:hover {
+  background-color: #bac8ba;
+}
+
+#element {
+  display: flex;
+}
+
+#element1 {
+  color: #434343;
+  justify-content: center;
+  text-align: left;
+  padding: 70px;
+}
+
+#element2 img {
+  border-radius: 50%;
+}
+
+
+.Contentoo {
+  display: flex;
+  justify-content: center;
+}
+
+.Service h2 {
+  text-align: center;
+}
+
+.Service button {
+  display: flex;
+
+}

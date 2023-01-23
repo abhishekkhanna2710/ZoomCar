@@ -102,7 +102,7 @@ We have used to add logical functionalities to the web pages like the on Click f
 
 # <span style="color:red"> Team members: </span>
 ## 1) Adil Rana
-## 2) Abishek khanna
+## 2) Abhishek khanna
 ## 3) Siddhant 
 ## 4) Siddhi 
 ## 5) Ravinder

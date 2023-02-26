@@ -1,17 +1,17 @@
-
-#top{
+.top{
     width: 100%;
-    height: 100px;
+    height: 150px;
     text-align: center;
     background-color: whitesmoke;
-    padding-top: 80px;
+    padding-top: 60px;
+    
 }
-#form{
+.form{
 width: 30%;
 margin: auto;
 }
 
-#form input{
+.form input{
     box-sizing: border-box;
     border:2px solid grey;
     width: 80%;
@@ -20,17 +20,16 @@ margin: auto;
     margin-left: 40px;
 }
 
-.fix-box>div{
+.select{
     width: 80%;
-    margin: auto;
+    margin-left: 40px;
     height: 30px;
-    color: grey;
     border: 2px solid grey;
 }
-#form >div>p:nth-child(1){
+.form >div>p:nth-child(1){
     font-weight: 500px;
 }
-#submit>button{
+.submit>input{
     width: 90%;
     height: 50px;
     margin: auto;
@@ -41,4 +40,5 @@ margin: auto;
     cursor: pointer;
     margin-top: 10px;
     margin-left: 20px;
+    margin-bottom: 40px;
 }

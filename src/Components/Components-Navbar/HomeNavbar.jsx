@@ -4,6 +4,8 @@ import React, { useState } from "react";
 import { useEffect } from "react";
 import Sidebar from "./SideBar";
 
+import style from "../Host/Earning.module.css";
+
 
 
 let user = JSON.parse(localStorage.getItem("loggedInUser")) || { "name": "Login" };
@@ -74,7 +76,7 @@ function HomeNavbar() {
                                 <NavLink to="/">
                                     <Box style={{ display: "flex" }} >
                                         <Sidebar />
-                                        <Img boxSize="100%" src="https://www.zoomcar.com/build/98e56e8b0b91e8806885a22ac2bf69a7.png" />
+                                        <Img className={style.logo}  src="https://www.zoomcar.com/build/98e56e8b0b91e8806885a22ac2bf69a7.png" />
                                     </Box>
                                 </NavLink>
 

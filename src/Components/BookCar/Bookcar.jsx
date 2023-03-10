@@ -1,11 +1,11 @@
 import React from 'react'
-import { useEffect, useState } from 'react'
+import { useEffect, useState , useDispatch} from 'react'
 import Car_products from '../Carproucts/Car_products';
 import Filter from '../Filters/Filter';
 import Footer from '../Footer/Footer';
 import "./BookCar.css";
 import HomeNavbar from '../Components-Navbar/HomeNavbar';
-import SelectProducts from "./store/Actions/productActions"
+// import SelectProducts from "./store/Actions/productActions"
 
 function Bookcar() {
     const [data, setData] = useState([]);
@@ -13,13 +13,13 @@ function Bookcar() {
     const [defaultData, setDefaultData] = useState([]);
     const [isLoading, setIsLoading] = useState(true);
 
-    const dispatch = useDispatch();
+    // const dispatch = useDispatch();
     const getData = async () => {
         let url = (`https://car-api3-0.onrender.com/carData`)
         let res = await fetch(url);
         let car_data = await res.json();
         console.log(car_data);
-        dispatch.SelectProducts(res.car_data)
+        // dispatch.SelectProducts(res.car_data)
         setData(car_data);
         setIsLoading(false);
     }

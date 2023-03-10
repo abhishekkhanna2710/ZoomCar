@@ -43,31 +43,32 @@ function Earning(){
        
 
 
-         let data={
-              
-             "image_url":url,
-    "name": name,
-    "price": "2580",
-    "trans": "Manual",
-    "fuel": fuel,
-    "seat": seat,
-    "Mileage":days,
-    "rating": 0
-        
-          }
-
-        fetch(`https://car-api3-0.onrender.com/carData`,{
-            method:"POST",
-            headers:{
-                "Content-type":"application/json"
-            },
-            body:JSON.stringify(data)
-
-        })
         if(name.length>0 && fuel.length>0 && seat>0 && days>0)
         {
         document.getElementById("popup1").style.visibility="visible";
         document.getElementById("popup1").style.opacity="1";
+        
+        let data={
+              
+            "image_url":url,
+   "name": name,
+   "price": "2580",
+   "trans": "Manual",
+   "fuel": fuel,
+   "seat": seat,
+   "Mileage":days,
+   "rating": 0
+       
+         }
+
+       fetch(`https://car-api3-0.onrender.com/carData`,{
+           method:"POST",
+           headers:{
+               "Content-type":"application/json"
+           },
+           body:JSON.stringify(data)
+
+       })
         }
         else
         {
@@ -94,7 +95,7 @@ function Earning(){
         <form className={styles.form}>
             <div>
             <p>Email-Id *</p>
-            <input type="text" className={styles.fixbox} placeholder={email} />
+            <input type="text"  className={styles.fixbox} placeholder={email} />
 
             </div>
            

@@ -1,5 +1,4 @@
-const SET_PRODUCTS = SET_PRODUCTS;
-const SELECTED_PRODUCTS = SELECTED_PRODUCTS;
+import { SET_PRODUCTS , SELECTED_PRODUCTS } from "./ActionType";
 
 
 export const setProducts = (products) => {

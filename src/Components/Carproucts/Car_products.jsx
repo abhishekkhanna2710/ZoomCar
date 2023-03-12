@@ -7,7 +7,7 @@ import { Link } from 'react-router-dom';
 
 
 
-function Car_products({ carData, data }) {
+function Carproducts({ carData, data }) {
     // const min = 1;
     // const max = 100;
     // const rand = Math.random() * (max - min) + min;
@@ -31,7 +31,7 @@ function Car_products({ carData, data }) {
             <Date />
 
             {
-                carData.length == 0 ? data.map(e => {
+                carData.length === 0 ? data.map(e => {
                     return (
 
                         <div className='container-fluid mainCars'>
@@ -139,4 +139,4 @@ function Car_products({ carData, data }) {
     )
 }
 
-export default Car_products
+export default Carproducts

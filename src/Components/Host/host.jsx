@@ -171,7 +171,7 @@ useEffect(()=>{
                         <p>Sharing days :</p>
                         <div className={styles.main}>
 
-                            <input type="range" className={styles.range} min="0" max="30" step="1" value={value} onInput={(e) => { setValue(e.target.value) }}></input>
+                            <input type="range" orient="vertical"  className={styles.range} min="0" max="30" step="1" value={value}   onTouchMove={(e)=>{setValue(e.target.value)}}  onChange={(e)=>{setValue(e.target.value)}}></input>
                             <p>{value} Days</p>
                             <div className={styles.line} ></div>
 

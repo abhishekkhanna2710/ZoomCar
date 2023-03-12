@@ -1,10 +1,16 @@
-const initData = [];
 
-const productReducer = (state = initData, { type, payload }) => {
+import {SET_PRODUCTS} from "../Actions/ActionType";
+import {SELECTED_PRODUCTS} from "../Actions/ActionType"
+const initData = {
+    products:[]
+    
+};
+
+export const productReducer = (state = initData, { type, payload=[] }) => {
     switch (type) {
-        case ActionTypes.SET_PRODUCTS:
+        case SET_PRODUCTS:
 
-            return { ...state, products: payload }
+            return { ...state, products:[...payload] }
 
         default:
             return state;
@@ -15,7 +21,7 @@ const productReducer = (state = initData, { type, payload }) => {
 
 export const selectProuctReducer = (state = {}, { type, payload }) => {
     switch (type) {
-        case ActionTypes.SELECTED_PRODUCTS:
+        case SELECTED_PRODUCTS:
 
             return { ...state, ...payload };
 
